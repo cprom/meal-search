@@ -18,5 +18,4 @@ const { meal } = defineProps({
         <p class="mb-4 line-clamp-3">{{ meal.strInstructions }}</p>
     </div>
 </div>
-
 </template>
