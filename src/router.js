@@ -13,7 +13,7 @@ const routes = [
   { path: '/meal-search/by-letter/:letter?', name: 'MealsByLetter', component: MealsByLetter },
   { path: '/meal-search/by-ingredient/:ingredient?', name: 'Ingredients', component: MealsByIngredients },
   { path: '/meal-search/meal/:id?', name: 'MealDetails', component: MealDetails },
-  { path: '/meal-search/ingredients', name: 'ingredients', component: Ingredients },
+  { path: '/meal-search/ingredients', name: 'Ingredients', component: Ingredients },
   { path: '/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
 ]
 
